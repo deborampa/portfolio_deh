@@ -1,105 +1,90 @@
 .gallery-section {
-    width: 100%;
+  width: 100%;
 }
 
 .div-h2 {
-    width: 100%;
-    margin: 40px 0;
+  width: 100%;
+  margin: 40px 0;
 
-    h2 {
-        line-height: 2.5rem;
-        font-family: "Barlow", Arial, Helvetica, sans-serif;
-        font-size: 1.9rem;
-        font-weight: 700;
-        color: $gold;
-        text-align: center;
-    }
+  h2 {
+    line-height: 2.5rem;
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: $gold;
+    text-align: center;
+  }
 }
 
 .wrapper {
-    // width: 100%;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-content: stretch;
+  overflow: hidden;
+}
+
+$size: calc(100vw / 5);
+
+.portfolio-item {
+  width: $size;
+  height: $size;
+  overflow: hidden;
+  position: relative;
+
+  img {
+    object-fit: cover;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    transition: all ease-in-out 0.9s;
+  }
+
+  img:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .gallery-section {
+    width: 100%;
+  }
+
+  .div-h2 {
+    width: 80%;
+    margin: 0 auto;
+
+    h2 {
+      margin-top: 20px;
+      line-height: 2rem;
+      font-size: 1.4rem;
+    }
+  }
+
+  .wrapper {
     height: max-content;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-    justify-content: flex-start;    
+    justify-content: flex-start;
     align-content: stretch;
     overflow: hidden;
-}
+  }
 
-$size: calc(100vw / 5);
+  $size: calc(100vw / 2);
 
-.portfolio-item  {
-    width: $size;
-    height: $size;
-    overflow: hidden;
+  .portfolio-item {
     position: relative;
-    
-
     img {
-        object-fit: cover;
-        position: absolute;
-        top: -50%;
-        left: -50%;
-        transition: all ease-in-out .9s;
+      width: $size;
+      height: $size;
+      transform: scale(1.1);
     }
-
-    img:hover {
-        opacity: .5;
-        transform: scale(1.1);;
-    }
-}
-
-
-@media screen and (max-width: 1400px) {
-    .gallery-section {
-        width: 100%;
-    }
-    
-    .div-h2 {
-        width: 80%;
-        margin: 0 auto;
-    
-        h2 {
-            margin-top: 20px;
-            line-height: 2rem;
-            font-size: 1.4rem;
-        }
-    }
-    
-    .wrapper {
-        height: max-content;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: stretch;
-        justify-content: flex-start;    
-        align-content: stretch;
-        overflow: hidden;
-    }
-    
-    $size: calc(100vw / 2);
-    
-    .portfolio-item  {
-        width: $size;
-        height: $size;
-        overflow: hidden;
-        position: relative;
-        
-    
-        img {
-            object-fit: cover;
-            position: absolute;
-            top: -100%;
-            left: -100%;
-            transition: all ease-in-out .9s;
-        }
-    
-        img:hover {
-            opacity: .5;
-            transform: scale(1.1);;
-        }
-    }
-    
+  }
 }

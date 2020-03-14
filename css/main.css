@@ -1453,6 +1453,7 @@ p {
 }
 
 .wrapper {
+  width: 100%;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -1489,12 +1490,12 @@ p {
   position: absolute;
   top: -50%;
   left: -50%;
-  -webkit-transition: all ease-in-out .9s;
-  transition: all ease-in-out .9s;
+  -webkit-transition: all ease-in-out 0.9s;
+  transition: all ease-in-out 0.9s;
 }
 
 .portfolio-item img:hover {
-  opacity: .5;
+  opacity: 0.5;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
@@ -1536,22 +1537,11 @@ p {
     overflow: hidden;
   }
   .portfolio-item {
-    width: calc(100vw / 2);
-    height: calc(100vw / 2);
-    overflow: hidden;
     position: relative;
   }
   .portfolio-item img {
-    -o-object-fit: cover;
-       object-fit: cover;
-    position: absolute;
-    top: -100%;
-    left: -100%;
-    -webkit-transition: all ease-in-out .9s;
-    transition: all ease-in-out .9s;
-  }
-  .portfolio-item img:hover {
-    opacity: .5;
+    width: calc(100vw / 2);
+    height: calc(100vw / 2);
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
   }
@@ -1593,7 +1583,7 @@ a:hover {
     font-size: 1rem;
   }
   html {
-    overflow-y: hidden;
+    overflow-x: hidden;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
