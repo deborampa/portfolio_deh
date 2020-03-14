@@ -1,0 +1,117 @@
+.objetivos {
+    height: 350px;
+    background-color: $gold;
+    width: 100%;
+}
+
+.objetivos-container {
+    display: grid;
+    column-gap: 60px;
+    grid-template-columns: 2fr 2fr 1fr 5fr 2fr;
+    grid-template-rows: 20px 2fr 2fr 20px;
+    width: 1000px;
+    margin: 0 auto;
+    height: 350px;
+}
+
+.objetivos-path {
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    img {
+        width: 300px;
+    }
+}
+
+.objetivos-texto {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    justify-self: center;
+    align-self: center;
+
+    h2 {
+        font-family: "Barlow", Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 1.8rem;
+        color: $orange;
+        text-transform: uppercase;
+      }
+
+    p {
+        margin-top: 15px;
+        line-height: 1.9rem;
+        font-family: "Barlow", Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 1.2rem;
+        color: $white;
+      }
+
+      span {
+        font-family: "Barlow", Arial, Helvetica, sans-serif;
+        font-weight: 700;
+      }
+}
+
+.objetivos-figure {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-self: end;
+    align-self: center;
+
+    img {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .objetivos {
+        height: 400px;
+        width: 100vw;
+    }
+
+    .objetivos-path {
+        display: none;
+    }
+    
+    .objetivos-container {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        width: 80%;
+    }
+    
+    .objetivos-texto {
+        width: 100%;
+    
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+          }
+    
+        p {
+            margin-top: 15px;
+            line-height: 1.5rem;
+            font-size: 1rem;
+          }
+    
+          span {
+            font-weight: 700;
+          }
+    }
+    
+    .objetivos-figure {
+        display: block;
+    
+        img {
+            // translate: 0%;
+            width: 100px;
+            margin-bottom: 20px;
+        }
+    }
+}
