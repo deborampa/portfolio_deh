@@ -17,7 +17,7 @@
 }
 
 .wrapper {
-  // width: 100%;
+  width: 100%;
   height: max-content;
   display: flex;
   flex-direction: row;
@@ -25,7 +25,7 @@
   align-items: stretch;
   justify-content: flex-start;
   align-content: stretch;
-  //   overflow: hidden;
+  overflow: hidden;
 }
 
 $size: calc(100vw / 5);
@@ -80,21 +80,10 @@ $size: calc(100vw / 5);
   $size: calc(100vw / 2);
 
   .portfolio-item {
-    width: $size;
-    height: $size;
-    overflow: hidden;
     position: relative;
-
     img {
-      object-fit: cover;
-      position: absolute;
-      top: -100%;
-      left: -100%;
-      transition: all ease-in-out 0.9s;
-    }
-
-    img:hover {
-      opacity: 0.5;
+      width: $size;
+      height: $size;
       transform: scale(1.1);
     }
   }
