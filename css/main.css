@@ -19,7 +19,9 @@
   -ms-grid-rows: 70px 100px 70px 120px 200px 98px;
       grid-template-rows: 70px 100px 70px 120px 200px 98px;
   width: 100%;
-  height: 700px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .container-grid .title {
@@ -154,7 +156,6 @@
 }
 
 .container-grid .about-me {
-  z-index: 3000;
   padding: 30px;
   -ms-grid-column: 4;
       grid-column-start: 4;
@@ -188,9 +189,7 @@
             align-items: center;
     justify-items: center;
     width: 100vw;
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
+    height: 100%;
   }
   .container-grid .chave {
     display: none;
