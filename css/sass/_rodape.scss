@@ -186,7 +186,7 @@
     }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 992px) {
     .rodape {
         flex-direction: column;
     }
@@ -331,6 +331,7 @@
         p {
             font-size: .6rem;
             width: 80vw;
+            line-height: 1rem;
             letter-spacing: 6px;
             margin: 0 auto;
         }
