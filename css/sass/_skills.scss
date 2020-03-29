@@ -96,7 +96,112 @@ p {
     }
 }
 
-@media screen and (max-width: 992px) {
+
+
+
+
+
+
+@media (min-width: 740px) and (max-width: 980px) {
+    
+    .bg-skills {
+        display: flex;
+        height: max-content;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .content {
+        display: flex;
+        height: max-content;
+        width: 90%;
+        margin-top: 50px;
+        padding: 0;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    .soft {
+        width: 300px;
+        height: max-content;
+        padding: 40px;
+        margin: 0 auto;
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            width: 100%;
+            margin: 0;
+        }
+    }
+    
+    
+    .hard {
+        width: 300px;
+        height: max-content;
+        padding: 0px 30px 0px 30px;
+        margin-top: 40px;
+    
+        i {
+            font-size: .8rem;
+        }
+    
+        h2 {
+            // width: 70%;
+            // margin-left: 20px;
+            margin-bottom: 10px;
+    
+            span {
+                font-weight: 700;
+            }
+        }
+    
+    }
+    
+    .hard2 {
+        display: none;
+        // width: 90%;
+        // margin-bottom: 40px;
+        // padding: 0px 30px 0px 30px;
+        // i {
+        //     font-size: .8rem;
+        // }
+    }
+    
+    
+    h2 {
+        font-weight: 300;
+        font-size: 2.2rem;
+        margin-bottom: 40px;
+    }
+    
+    p {
+        // font-size: 1rem;
+        // line-height: 1.5rem;
+        // color: #000;
+        // margin-bottom: 6px;
+        width: 100%;
+        margin: 0;
+    
+    }
+    
+    .inline {
+        display: none; 
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 739px) {
     .bg-skills {
         height: max-content;
         display: flex;

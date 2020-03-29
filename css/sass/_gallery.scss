@@ -50,7 +50,62 @@ $size: calc(100vw / 5);
   }
 }
 
-@media screen and (max-width: 992px) {
+
+
+
+
+
+
+
+@media (min-width: 740px) and (max-width: 980px) {
+  .gallery-section {
+    width: 100%;
+  }
+
+  .div-h2 {
+    width: 60%;
+    margin: 0 auto;
+
+    h2 {
+      margin-top: 20px;
+      line-height: 2rem;
+      font-size: 1.4rem;
+    }
+  }
+
+  .wrapper {
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-content: stretch;
+    overflow: hidden;
+  }
+
+  $size: calc(100vw / 2);
+
+  .portfolio-item {
+    position: relative;
+    img {
+      width: $size;
+      height: $size;
+      transform: scale(1.1);
+    }
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 739px) {
   .gallery-section {
     width: 100%;
   }
