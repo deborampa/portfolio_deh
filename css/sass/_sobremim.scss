@@ -1,7 +1,7 @@
 .sintese-fundao {
     background-color: $white;
-    width: 100%;
-    height: 400px;
+    width: 100vw;
+    height: max-content;
     margin: 0px;
     display: flex;
     overflow-y: hidden;
@@ -10,7 +10,7 @@
 .sintese-orange {
     background-color: $orange;
     width: 50%;    
-    height: 400px;
+    height: max-content;
     margin: 0px;
 }
 
@@ -62,17 +62,18 @@
     h2 {
         font-family: "Barlow", Arial, Helvetica, sans-serif;
         font-weight: 700;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         color: $white;
         text-transform: uppercase;
       }
 
     p {
+        width: 90%;
         margin-top: 15px;
-        line-height: 1.9rem;
+        line-height: 2rem;
         font-family: "Barlow", Arial, Helvetica, sans-serif;
         font-weight: 300;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         color: $grey;
       }
 
@@ -186,7 +187,7 @@
 
 @media (max-width: 739px) {
     .sintese-fundao {
-        height: 500px;
+        height: max-content;      
         margin: 0px;
         
 
@@ -199,7 +200,7 @@
         
         .sintese-orange { 
             width: 100%;     
-            height: 500px;      
+            height: max-content;      
 
             .sintese-container-orange {
                 display: block;

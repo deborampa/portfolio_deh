@@ -1,7 +1,7 @@
 .objetivos {
-    height: 350px;
+    height: max-content;      
     background-color: $gold;
-    width: 100%;
+    width: 100vw;
 }
 
 .objetivos-container {
@@ -11,7 +11,7 @@
     grid-template-rows: 20px 2fr 2fr 20px;
     width: 1000px;
     margin: 0 auto;
-    height: 350px;
+    height: max-content;      
 }
 
 .objetivos-path {
@@ -36,17 +36,18 @@
     h2 {
         font-family: "Barlow", Arial, Helvetica, sans-serif;
         font-weight: 700;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         color: $orange;
         text-transform: uppercase;
       }
 
     p {
+        width: 90%;
         margin-top: 15px;
-        line-height: 1.9rem;
+        line-height: 2rem;
         font-family: "Barlow", Arial, Helvetica, sans-serif;
         font-weight: 300;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         color: $white;
       }
 
@@ -93,6 +94,7 @@
         width: 80%;
         align-items: center;
         justify-content: center;
+        height: max-content;
     }
     
     .objetivos-texto {
@@ -133,7 +135,7 @@
 
 @media (max-width: 739px) {
     .objetivos {
-        height: 400px;
+        height: max-content;
         width: 100vw;
     }
 
@@ -146,6 +148,7 @@
         flex-direction: column;
         padding: 40px;
         width: 80%;
+        height: max-content;
     }
     
     .objetivos-texto {

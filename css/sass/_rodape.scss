@@ -1,7 +1,7 @@
 .rodape {
     background-color: #C2E865;
     height: max-content;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -132,8 +132,7 @@
     font-size: 1rem;
     padding: 5px;
     border: 0px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;    
     font-family: "Barlow", Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: .8rem;
@@ -144,14 +143,14 @@
     resize: none;
 }
 
-.campo-mensagem textarea::placeholder {
-    font-family: "Barlow", Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    font-size: .8rem;
-    color: $grey;
-    text-align: left;
-    text-transform: uppercase;
-}
+// .campo-mensagem textarea::placeholder {
+//     font-family: "Barlow", Arial, Helvetica, sans-serif;
+//     font-weight: 300;
+//     font-size: .8rem;
+//     color: ##4A4A4A;
+//     text-align: left;
+//     text-transform: uppercase;
+// }
 
 
 .button input{
