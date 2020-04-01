@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Unna:400,700&display=swap");
 .banner {
   margin-top: 0;
-  width: 100%;
+  width: 100vw;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -378,8 +378,10 @@
 
 .sintese-fundao {
   background-color: #FFF;
-  width: 100%;
-  height: 400px;
+  width: 100vw;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   margin: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -390,7 +392,9 @@
 .sintese-orange {
   background-color: #FFB384;
   width: 50%;
-  height: 400px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   margin: 0px;
 }
 
@@ -455,17 +459,18 @@
 .sintese-texto h2 {
   font-family: "Barlow", Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #FFF;
   text-transform: uppercase;
 }
 
 .sintese-texto p {
+  width: 90%;
   margin-top: 15px;
-  line-height: 1.9rem;
+  line-height: 2rem;
   font-family: "Barlow", Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #4A4A4A;
 }
 
@@ -564,7 +569,9 @@
 
 @media (max-width: 739px) {
   .sintese-fundao {
-    height: 500px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
     margin: 0px;
   }
   .sintese-fundao .sintese-white {
@@ -575,7 +582,9 @@
   }
   .sintese-fundao .sintese-orange {
     width: 100%;
-    height: 500px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
   .sintese-fundao .sintese-orange .sintese-container-orange {
     display: block;
@@ -743,9 +752,11 @@ nav .nav-item3 {
 }
 
 .objetivos {
-  height: 350px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   background-color: #A39B66;
-  width: 100%;
+  width: 100vw;
 }
 
 .objetivos-container {
@@ -759,7 +770,9 @@ nav .nav-item3 {
       grid-template-rows: 20px 2fr 2fr 20px;
   width: 1000px;
   margin: 0 auto;
-  height: 350px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .objetivos-path {
@@ -792,17 +805,18 @@ nav .nav-item3 {
 .objetivos-texto h2 {
   font-family: "Barlow", Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #FFB384;
   text-transform: uppercase;
 }
 
 .objetivos-texto p {
+  width: 90%;
   margin-top: 15px;
-  line-height: 1.9rem;
+  line-height: 2rem;
   font-family: "Barlow", Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #FFF;
 }
 
@@ -855,6 +869,9 @@ nav .nav-item3 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
   .objetivos-texto {
     width: 100%;
@@ -882,7 +899,9 @@ nav .nav-item3 {
 
 @media (max-width: 739px) {
   .objetivos {
-    height: 400px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
     width: 100vw;
   }
   .objetivos-path {
@@ -898,6 +917,9 @@ nav .nav-item3 {
             flex-direction: column;
     padding: 40px;
     width: 80%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
   .objetivos-texto {
     width: 100%;
@@ -937,6 +959,7 @@ nav .nav-item3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100vw;
 }
 
 .content {
@@ -1199,7 +1222,7 @@ p {
 .lifelong-container {
   display: -ms-grid;
   display: grid;
-  width: 100%;
+  width: 100vw;
   height: 400px;
   -ms-grid-columns: 300px 2.5fr 2fr 40px;
       grid-template-columns: 300px 2.5fr 2fr 40px;
@@ -1464,7 +1487,7 @@ p {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  width: 100%;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1623,42 +1646,6 @@ p {
   -ms-flex-item-align: start;
       align-self: flex-start;
   resize: none;
-}
-
-.campo-mensagem textarea::-webkit-input-placeholder {
-  font-family: "Barlow", Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: .8rem;
-  color: #4A4A4A;
-  text-align: left;
-  text-transform: uppercase;
-}
-
-.campo-mensagem textarea:-ms-input-placeholder {
-  font-family: "Barlow", Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: .8rem;
-  color: #4A4A4A;
-  text-align: left;
-  text-transform: uppercase;
-}
-
-.campo-mensagem textarea::-ms-input-placeholder {
-  font-family: "Barlow", Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: .8rem;
-  color: #4A4A4A;
-  text-align: left;
-  text-transform: uppercase;
-}
-
-.campo-mensagem textarea::placeholder {
-  font-family: "Barlow", Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: .8rem;
-  color: #4A4A4A;
-  text-align: left;
-  text-transform: uppercase;
 }
 
 .button input {
@@ -2096,7 +2083,7 @@ p {
 }
 
 .wrapper {
-  width: 100%;
+  width: 100vw;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -2109,14 +2096,9 @@ p {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
   overflow: hidden;
 }
 

@@ -1,7 +1,7 @@
 .lifelong-container {
   display: grid;
   // padding: 20px 20px 20px 60px;
-  width: 100%;
+  width: 100vw;
   height: 400px;
   grid-template-columns: 300px 2.5fr 2fr 40px;
   grid-template-rows: 120px 3fr 6fr 40px;
