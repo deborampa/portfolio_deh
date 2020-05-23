@@ -176,14 +176,31 @@
   font-weight: 700;
 }
 
+.container-grid #button-contato {
+  background-color: #FFC98B;
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  color: #4A4A4A;
+  padding: 5px 15px;
+  height: 35px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.container-grid #button-contato:hover {
+  background-color: #f0e9be;
+}
+
 @media (min-width: 740px) and (max-width: 980px) {
-  .banner {
+  .container-grid .banner {
     width: 100%;
   }
-  .title {
+  .container-grid .title {
     padding-bottom: 40px;
   }
-  .container-grid {
+  .container-grid .container-grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 5% 90% 5%;
@@ -197,27 +214,27 @@
     width: 100vw;
     height: 100%;
   }
-  .container-grid .chave {
+  .container-grid .container-grid .chave {
     display: none;
   }
-  .container-grid .chave p {
+  .container-grid .container-grid .chave p {
     margin-left: 20px;
     font-size: .9rem;
   }
-  .container-grid .valor {
+  .container-grid .container-grid .valor {
     display: none;
   }
-  .container-grid .valor a {
+  .container-grid .container-grid .valor a {
     font-size: .9rem;
     margin-top: 0px;
     margin-left: 0px;
   }
-  .container-grid .valor p {
+  .container-grid .container-grid .valor p {
     font-size: .9rem;
     margin-top: 0px;
     margin-left: 20px;
   }
-  .container-grid .about-me {
+  .container-grid .container-grid .about-me {
     -ms-grid-column: 2;
         grid-column-start: 2;
     grid-column-end: 3;
@@ -227,21 +244,21 @@
     margin-left: 0px;
     margin-top: 0px;
   }
-  .container-grid .about-me p {
+  .container-grid .container-grid .about-me p {
     line-height: 1.8rem;
     font-size: 1rem;
     width: 80vw;
   }
-  .container-grid .chave > p {
+  .container-grid .container-grid .chave > p {
     display: none;
   }
-  .container-grid .title {
+  .container-grid .container-grid .title {
     margin-bottom: 20px;
   }
-  .container-grid .title span {
+  .container-grid .container-grid .title span {
     margin-left: 10px;
   }
-  .container-grid .title span h1 {
+  .container-grid .container-grid .title span h1 {
     color: transparent;
     -webkit-text-stroke: 2px #A39B66;
     font-family: "Barlow", sans-serif;
@@ -250,7 +267,7 @@
     line-height: 2.7rem;
     margin: 0;
   }
-  .container-grid .title h1 {
+  .container-grid .container-grid .title h1 {
     font-family: "Barlow", sans-serif !important;
     letter-spacing: -1px;
     font-weight: 700;
@@ -258,10 +275,10 @@
     color: #FFF;
     margin: 0;
   }
-  .container-grid .titulo_efeito {
+  .container-grid .container-grid .titulo_efeito {
     color: #FFF !important;
   }
-  .container-grid .titulo_efeito span {
+  .container-grid .container-grid .titulo_efeito span {
     -webkit-text-stroke: 2px #A39B66 !important;
     font-family: "Barlow", sans-serif !important;
     font-weight: 700 !important;
@@ -269,7 +286,7 @@
     line-height: 3rem !important;
     margin: 0 !important;
   }
-  .container-grid .subtitle p {
+  .container-grid .container-grid .subtitle p {
     font-size: 1.6rem;
     line-height: 1.6rem;
     margin-top: 30px;
@@ -277,19 +294,28 @@
     margin-bottom: 60px;
     width: 200px;
   }
-  .line {
+  .container-grid .line {
     display: none;
+  }
+  .container-grid #button-contato {
+    background-color: #A39B66;
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    color: #FFF;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
   }
 }
 
 @media (max-width: 739px) {
-  .banner {
+  .container-grid .banner {
     width: 100%;
   }
-  .title {
+  .container-grid .title {
     padding-bottom: 40px;
   }
-  .container-grid {
+  .container-grid .container-grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 5% 90% 5%;
@@ -303,39 +329,39 @@
     width: 100vw;
     height: 100%;
   }
-  .container-grid .chave {
+  .container-grid .container-grid .chave {
     display: none;
   }
-  .container-grid .chave p {
+  .container-grid .container-grid .chave p {
     margin-left: 20px;
     font-size: .9rem;
   }
-  .container-grid .valor {
+  .container-grid .container-grid .valor {
     display: none;
   }
-  .container-grid .valor a {
+  .container-grid .container-grid .valor a {
     font-size: .9rem;
     margin-top: 0px;
     margin-left: 0px;
   }
-  .container-grid .valor p {
+  .container-grid .container-grid .valor p {
     font-size: .9rem;
     margin-top: 0px;
     margin-left: 20px;
   }
-  .container-grid .about-me {
+  .container-grid .container-grid .about-me {
     display: none;
   }
-  .container-grid .chave > p {
+  .container-grid .container-grid .chave > p {
     display: none;
   }
-  .container-grid .title {
+  .container-grid .container-grid .title {
     margin-bottom: 20px;
   }
-  .container-grid .title span {
+  .container-grid .container-grid .title span {
     margin-left: 10px;
   }
-  .container-grid .title span h1 {
+  .container-grid .container-grid .title span h1 {
     color: transparent;
     -webkit-text-stroke: 2px #A39B66;
     font-family: "Barlow", sans-serif;
@@ -344,7 +370,7 @@
     line-height: 2.7rem;
     margin: 0;
   }
-  .container-grid .title h1 {
+  .container-grid .container-grid .title h1 {
     font-family: "Barlow", sans-serif !important;
     letter-spacing: -1px;
     font-weight: 700;
@@ -352,10 +378,10 @@
     color: #FFF;
     margin: 0;
   }
-  .container-grid .titulo_efeito {
+  .container-grid .container-grid .titulo_efeito {
     color: #FFF !important;
   }
-  .container-grid .titulo_efeito span {
+  .container-grid .container-grid .titulo_efeito span {
     -webkit-text-stroke: 2px #A39B66 !important;
     font-family: "Barlow", sans-serif !important;
     font-weight: 700 !important;
@@ -363,7 +389,7 @@
     line-height: 3rem !important;
     margin: 0 !important;
   }
-  .container-grid .subtitle p {
+  .container-grid .container-grid .subtitle p {
     font-size: 1.6rem;
     line-height: 1.6rem;
     margin-top: 30px;
@@ -371,7 +397,7 @@
     margin-bottom: 60px;
     width: 200px;
   }
-  .line {
+  .container-grid .line {
     display: none;
   }
 }
@@ -1658,7 +1684,7 @@ p {
   height: 30px;
   cursor: pointer;
   border: 0px;
-  background-color: #AFD357;
+  background-color: #bbe258;
   color: #4A4A4A;
 }
 
@@ -1879,7 +1905,7 @@ p {
     height: 30px;
     cursor: pointer;
     border: 0px;
-    background-color: #AFD357;
+    background-color: #bbe258;
     color: #4A4A4A;
   }
   .button {
@@ -2065,7 +2091,7 @@ p {
 }
 
 .gallery-section {
-  width: 100%;
+  width: 100vw;
 }
 
 .div-h2 {
