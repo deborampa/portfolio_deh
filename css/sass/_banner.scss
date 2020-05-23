@@ -1,3 +1,4 @@
+// desktop
 .banner {
   margin-top: 0;
   width: 100vw;
@@ -176,12 +177,19 @@
     background-color: $light-gold;
   }
 }
+}
 
 
 
 
 
 
+
+
+
+
+
+// ipad
 @media (min-width: 740px) and (max-width: 980px) {
 
   .banner {
@@ -227,7 +235,7 @@
   }
     
     .about-me {
-      // display: none;
+      display: none;
       grid-column-start: 2;
       grid-column-end: 3;
       grid-row-start: 4;
@@ -304,17 +312,24 @@
   // margin-top: 15px;
 }
 
-#button-contato {
-    background-color: #A39B66;
+  #button-contato {
+    background-color: $light-orange;
     font-family: "Barlow", sans-serif;
     font-size: 1rem;
-    color: #FFF;
+    color: $grey;
     padding: 5px 15px;
+    height: 35px;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px;
+  
+    &:hover {
+    background-color: $light-gold;
+  }
+}
 }
 
-}
 
 
 
@@ -324,9 +339,7 @@
 
 
 
-
-
-
+// celular
 @media (max-width: 739px) {
   .banner {
     width: 100%;
@@ -447,4 +460,21 @@
     // margin-left: 20px;
     // margin-top: 15px;
   }
-}}
+}
+
+  #button-contato {
+    background-color: $light-orange;
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    color: $grey;
+    padding: 5px 15px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px;
+  
+    &:hover {
+    background-color: $light-gold;
+  }
+}
