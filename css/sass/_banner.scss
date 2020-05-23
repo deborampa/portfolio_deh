@@ -159,6 +159,22 @@
       }
     }
   }
+
+  #button-contato {
+    background-color: $light-orange;
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    color: $grey;
+    padding: 5px 15px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px;
+  
+    &:hover {
+    background-color: $light-gold;
+  }
 }
 
 
@@ -288,6 +304,16 @@
   // margin-top: 15px;
 }
 
+#button-contato {
+    background-color: #A39B66;
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    color: #FFF;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+}
+
 }
 
 
@@ -415,11 +441,10 @@
     }
   }
 } 
-.line {
-  display: none;
-  // width: 32px;
-  // margin-left: 20px;
-  // margin-top: 15px;
-}
-
-}
+  .line {
+    display: none;
+    // width: 32px;
+    // margin-left: 20px;
+    // margin-top: 15px;
+  }
+}}
