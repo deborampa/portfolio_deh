@@ -2269,6 +2269,51 @@ p {
   }
 }
 
+.divsub {
+  background-color: #A39B66;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.divsub p {
+  font-family: "Barlow", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #FFF;
+}
+
+.mensagem {
+  margin: 0px;
+}
+
+.voltar {
+  margin: 0px;
+}
+
+.voltar a {
+  text-decoration: none;
+  font-family: "Barlow", Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  color: #4A4A4A;
+}
+
+.voltar a:hover {
+  color: #FFB384;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

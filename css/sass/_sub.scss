@@ -1,0 +1,36 @@
+.divsub {
+  background-color: $gold;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: $white;
+  }
+
+  }
+
+.mensagem {
+  margin: 0px;
+}
+
+.voltar {
+  margin: 0px;
+
+  a {
+    text-decoration: none;
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: $grey;
+
+  &:hover {
+    color: $orange;
+  }
+}
+}
