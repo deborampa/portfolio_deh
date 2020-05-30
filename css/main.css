@@ -179,11 +179,13 @@
 .container-grid #button-contato {
   background-color: #FFC98B;
   font-family: "Barlow", sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #4A4A4A;
   padding: 5px 15px;
   height: 35px;
   border: none;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border-radius: 15px;
   cursor: pointer;
   margin: 10px;
@@ -1308,7 +1310,7 @@ p {
   font-family: "Barlow", sans-serif;
   letter-spacing: -6px;
   font-weight: 700;
-  font-size: 7rem;
+  font-size: 6rem;
   color: #A39B66;
   line-height: 91px;
 }
@@ -2153,8 +2155,8 @@ p {
 }
 
 .portfolio-item {
-  width: calc(100vw / 5);
-  height: calc(100vw / 5);
+  width: calc(100vw / 4);
+  height: calc(100vw / 4);
   overflow: hidden;
   position: relative;
 }
@@ -2163,8 +2165,8 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
-  top: -50%;
-  left: -50%;
+  top: -30%;
+  left: -30%;
   -webkit-transition: all ease-in-out 0.9s;
   transition: all ease-in-out 0.9s;
 }
@@ -2173,6 +2175,84 @@ p {
   opacity: 0.5;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.florenscer {
+  background-image: url("../../img/trabalhos/appflo.png");
+  background-size: cover;
+  height: 250px;
+  margin: 0;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 12px 80px;
+}
+
+.florenscer img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100vw;
+  height: 300px;
+}
+
+.florenscer button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #736696;
+  padding: 20px 20px;
+  height: 35px;
+  border: none;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.florenscer button:hover {
+  background-color: #8678ad;
+}
+
+.florenscer button a {
+  font-family: "Barlow", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #eae3ff;
+}
+
+.arrow {
+  margin-left: 6px;
+  border: solid #FFB384;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.flo-img {
+  width: 200px;
+  height: 100px;
+  background-image: url(../../img/logos/flo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 50px;
 }
 
 @media (min-width: 740px) and (max-width: 980px) {
@@ -2267,6 +2347,84 @@ p {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
   }
+}
+
+.florenscer {
+  background-image: url("../../img/trabalhos/appflo.png");
+  background-size: cover;
+  height: 320px;
+  margin: 0;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 12px 80px;
+}
+
+.florenscer img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100vw;
+  height: 300px;
+}
+
+.florenscer button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #736696;
+  padding: 25px 20px;
+  height: 35px;
+  border: none;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.florenscer button:hover {
+  background-color: #8678ad;
+}
+
+.florenscer button a {
+  font-family: "Barlow", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #eae3ff;
+}
+
+.arrow {
+  margin-left: 6px;
+  border: solid #FFB384;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.flo-img {
+  width: 200px;
+  height: 100px;
+  background-image: url(../../img/logos/flo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 50px;
 }
 
 .divsub {
