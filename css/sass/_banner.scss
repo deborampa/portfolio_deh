@@ -164,11 +164,12 @@
   #button-contato {
     background-color: $light-orange;
     font-family: "Barlow", sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: $grey;
     padding: 5px 15px;
     height: 35px;
     border: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     border-radius: 15px;
     cursor: pointer;
     margin: 10px;
